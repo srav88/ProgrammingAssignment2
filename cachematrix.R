@@ -2,6 +2,14 @@
 ## R Programming ##
 ## Code wrtten by Sravan Rajupalem ##
 
+## This code caches the inverse of a matrix.
+## Since matrix inversion can be a time consuming computation,
+## if the contents of the matrix are not changing it is useful to cache
+## the value of the inverse instead of recomputing it.
+
+## This code creates contains two functions that store a matrix and caches the inverse.
+
+
 ## This function creates a special matrix object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
